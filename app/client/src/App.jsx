@@ -45,7 +45,7 @@ const route = createBrowserRouter([
             path: "stats",
             element: <Stats />,
           },
-          { path: "alljobs", element: <AllJobs /> },
+          { path: "all-jobs", element: <AllJobs /> },
           { path: "profile", element: <Profile /> },
           { path: "admin", element: <Admin /> },
         ],

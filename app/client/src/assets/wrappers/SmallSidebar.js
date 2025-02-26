@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Wrapper = styled.aside`
   @media (min-width: 992px) {
@@ -31,7 +31,8 @@ const Wrapper = styled.aside`
     display: flex;
     align-items: center;
     flex-direction: column;
-  }
+    z-index: 99;
+   
   .close-btn {
     position: absolute;
     top: 10px;
@@ -47,6 +48,7 @@ const Wrapper = styled.aside`
     display: flex;
     flex-direction: column;
   }
+
   .nav-link {
     display: flex;
     align-items: center;
@@ -54,9 +56,10 @@ const Wrapper = styled.aside`
     padding: 1rem 0;
     text-transform: capitalize;
     transition: var(--transition);
+    text-decoration: none;
   }
   .nav-link:hover {
-    color: var(--primary-500);
+    color: #2cb1bc;
   }
   .icon {
     font-size: 1.5rem;
@@ -65,7 +68,7 @@ const Wrapper = styled.aside`
     place-items: center;
   }
   .active {
-    color: var(--primary-500);
+    color: #2cb1bc;
   }
 `;
 export default Wrapper;

@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Wrapper = styled.aside`
   display: none;
@@ -39,10 +39,11 @@ const Wrapper = styled.aside`
       padding-left: 2.5rem;
       text-transform: capitalize;
       transition: padding-left 0.3s ease-in-out;
+      text-decoration: none;
     }
     .nav-link:hover {
       padding-left: 3rem;
-      color: var(--primary-500);
+      color: #2cb1bc;
       transition: var(--transition);
     }
     .icon {
@@ -52,7 +53,7 @@ const Wrapper = styled.aside`
       place-items: center;
     }
     .active {
-      color: var(--primary-500);
+      color: #2cb1bc;
     }
     .pending {
       background: var(--background-color);

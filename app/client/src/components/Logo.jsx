@@ -6,7 +6,7 @@ const Logo = () => {
     height: "100px",
     display: "block",
     borderRadius: "50%",
-    margin: "0 auto",
+    margin: "55 auto",
   };
 
   return <img src={logo} alt="logo" style={logoStyle} />;
